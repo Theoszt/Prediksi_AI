@@ -1,0 +1,381 @@
+round,date,time,Home Team,Away Team
+Matchday 1,2024-08-15,19:00,Ath Bilbao,Getafe
+Matchday 1,2024-08-15,21:30,Betis,Girona
+Matchday 1,2024-08-16,19:00,Celta,Alaves
+Matchday 1,2024-08-16,21:30,Las Palmas,Sevilla
+Matchday 1,2024-08-17,19:00,Osasuna,Leganes
+Matchday 1,2024-08-17,21:30,Valencia,Barcelona
+Matchday 1,2024-08-18,19:00,Sociedad,Vallecano
+Matchday 1,2024-08-18,21:30,Mallorca,Real Madrid
+Matchday 1,2024-08-19,19:00,Valladolid,Espanol
+Matchday 1,2024-08-19,21:30,Villarreal,Ath Madrid
+Matchday 2,2024-08-23,19:00,Celta,Valencia
+Matchday 2,2024-08-23,21:30,Sevilla,Villarreal
+Matchday 2,2024-08-24,17:00,Osasuna,Mallorca
+Matchday 2,2024-08-24,19:00,Barcelona,Ath Bilbao
+Matchday 2,2024-08-24,21:30,Getafe,Vallecano
+Matchday 2,2024-08-24,21:30,Espanol,Sociedad
+Matchday 2,2024-08-25,17:00,Real Madrid,Valladolid
+Matchday 2,2024-08-25,19:00,Leganes,Las Palmas
+Matchday 2,2024-08-25,19:15,Alaves,Betis
+Matchday 2,2024-08-25,21:30,Ath Madrid,Girona
+Matchday 3,2024-08-26,21:30,Villarreal,Celta
+Matchday 3,2024-08-27,19:00,Mallorca,Sevilla
+Matchday 3,2024-08-27,21:30,Vallecano,Barcelona
+Matchday 3,2024-08-28,19:00,Ath Bilbao,Valencia
+Matchday 3,2024-08-28,19:00,Valladolid,Leganes
+Matchday 3,2024-08-28,21:30,Sociedad,Alaves
+Matchday 3,2024-08-28,21:30,Ath Madrid,Espanol
+Matchday 3,2024-08-29,19:00,Girona,Osasuna
+Matchday 3,2024-08-29,21:30,Las Palmas,Real Madrid
+Matchday 4,2024-08-31,17:00,Barcelona,Valladolid
+Matchday 4,2024-08-31,19:00,Ath Bilbao,Ath Madrid
+Matchday 4,2024-08-31,19:15,Espanol,Vallecano
+Matchday 4,2024-08-31,21:30,Leganes,Mallorca
+Matchday 4,2024-08-31,21:30,Valencia,Villarreal
+Matchday 4,2024-09-01,17:00,Osasuna,Celta
+Matchday 4,2024-09-01,17:00,Alaves,Las Palmas
+Matchday 4,2024-09-01,19:00,Sevilla,Girona
+Matchday 4,2024-09-01,19:15,Getafe,Sociedad
+Matchday 4,2024-09-01,21:30,Real Madrid,Betis
+Matchday 5,2024-09-13,21:00,Betis,Leganes
+Matchday 5,2024-09-14,14:00,Mallorca,Villarreal
+Matchday 5,2024-09-14,16:15,Espanol,Alaves
+Matchday 5,2024-09-14,18:30,Sevilla,Getafe
+Matchday 5,2024-09-14,21:00,Sociedad,Real Madrid
+Matchday 5,2024-09-15,14:00,Celta,Valladolid
+Matchday 5,2024-09-15,16:15,Girona,Barcelona
+Matchday 5,2024-09-15,18:30,Las Palmas,Ath Bilbao
+Matchday 5,2024-09-15,21:00,Ath Madrid,Valencia
+Matchday 5,2024-09-16,21:00,Vallecano,Osasuna
+Matchday 7,2024-09-17,19:00,Mallorca,Sociedad
+Matchday 3,2024-09-18,19:00,Betis,Getafe
+Matchday 7,2024-09-19,19:00,Leganes,Ath Bilbao
+Matchday 6,2024-09-20,21:00,Alaves,Sevilla
+Matchday 6,2024-09-21,14:00,Valladolid,Sociedad
+Matchday 6,2024-09-21,16:15,Osasuna,Las Palmas
+Matchday 6,2024-09-21,18:30,Valencia,Girona
+Matchday 6,2024-09-21,21:00,Real Madrid,Espanol
+Matchday 6,2024-09-22,14:00,Getafe,Leganes
+Matchday 6,2024-09-22,16:15,Ath Bilbao,Celta
+Matchday 6,2024-09-22,18:30,Villarreal,Barcelona
+Matchday 6,2024-09-22,21:00,Vallecano,Ath Madrid
+Matchday 6,2024-09-23,21:00,Betis,Mallorca
+Matchday 7,2024-09-24,19:00,Sevilla,Valladolid
+Matchday 7,2024-09-24,19:00,Valencia,Osasuna
+Matchday 7,2024-09-24,21:00,Real Madrid,Alaves
+Matchday 7,2024-09-25,19:00,Girona,Vallecano
+Matchday 7,2024-09-25,21:00,Barcelona,Getafe
+Matchday 7,2024-09-26,19:00,Las Palmas,Betis
+Matchday 7,2024-09-26,19:00,Espanol,Villarreal
+Matchday 7,2024-09-26,21:00,Celta,Ath Madrid
+Matchday 8,2024-09-27,21:00,Valladolid,Mallorca
+Matchday 8,2024-09-28,14:00,Getafe,Alaves
+Matchday 8,2024-09-28,16:15,Vallecano,Leganes
+Matchday 8,2024-09-28,18:30,Sociedad,Valencia
+Matchday 8,2024-09-28,21:00,Osasuna,Barcelona
+Matchday 8,2024-09-29,14:00,Celta,Girona
+Matchday 8,2024-09-29,16:15,Ath Bilbao,Sevilla
+Matchday 8,2024-09-29,18:30,Betis,Espanol
+Matchday 8,2024-09-29,21:00,Ath Madrid,Real Madrid
+Matchday 8,2024-09-30,21:00,Villarreal,Las Palmas
+Matchday 9,2024-10-04,21:00,Leganes,Valencia
+Matchday 9,2024-10-05,14:00,Espanol,Mallorca
+Matchday 9,2024-10-05,16:15,Getafe,Osasuna
+Matchday 9,2024-10-05,18:30,Valladolid,Vallecano
+Matchday 9,2024-10-05,18:30,Las Palmas,Celta
+Matchday 9,2024-10-05,21:00,Real Madrid,Villarreal
+Matchday 9,2024-10-06,14:00,Girona,Ath Bilbao
+Matchday 9,2024-10-06,16:15,Alaves,Barcelona
+Matchday 9,2024-10-06,18:30,Sevilla,Betis
+Matchday 9,2024-10-06,21:00,Sociedad,Ath Madrid
+Matchday 10,2024-10-18,21:00,Alaves,Valladolid
+Matchday 10,2024-10-19,14:00,Ath Bilbao,Espanol
+Matchday 10,2024-10-19,16:15,Osasuna,Betis
+Matchday 10,2024-10-19,18:30,Girona,Sociedad
+Matchday 10,2024-10-19,21:00,Celta,Real Madrid
+Matchday 10,2024-10-20,14:00,Mallorca,Vallecano
+Matchday 10,2024-10-20,16:15,Ath Madrid,Leganes
+Matchday 10,2024-10-20,18:30,Villarreal,Getafe
+Matchday 10,2024-10-20,21:00,Barcelona,Sevilla
+Matchday 10,2024-10-21,21:00,Valencia,Las Palmas
+Matchday 11,2024-10-25,21:00,Espanol,Sevilla
+Matchday 11,2024-10-26,14:00,Valladolid,Villarreal
+Matchday 11,2024-10-26,16:15,Vallecano,Alaves
+Matchday 11,2024-10-26,18:30,Las Palmas,Girona
+Matchday 11,2024-10-26,21:00,Real Madrid,Barcelona
+Matchday 11,2024-10-27,14:00,Leganes,Celta
+Matchday 11,2024-10-27,16:15,Getafe,Valencia
+Matchday 11,2024-10-27,18:30,Betis,Ath Madrid
+Matchday 11,2024-10-27,21:00,Sociedad,Osasuna
+Matchday 11,2024-10-28,21:00,Mallorca,Ath Bilbao
+Matchday 12,2024-11-01,21:00,Alaves,Mallorca
+Matchday 12,2024-11-02,,Valencia,Real Madrid
+Matchday 12,2024-11-02,14:00,Osasuna,Valladolid
+Matchday 12,2024-11-02,16:15,Girona,Leganes
+Matchday 12,2024-11-03,14:00,Ath Madrid,Las Palmas
+Matchday 12,2024-11-03,16:15,Barcelona,Espanol
+Matchday 12,2024-11-03,18:30,Sevilla,Sociedad
+Matchday 12,2024-11-03,21:00,Ath Bilbao,Betis
+Matchday 12,2024-11-04,21:00,Celta,Getafe
+Matchday 13,2024-11-08,21:00,Vallecano,Las Palmas
+Matchday 13,2024-11-09,14:00,Real Madrid,Osasuna
+Matchday 13,2024-11-09,16:15,Villarreal,Alaves
+Matchday 13,2024-11-09,21:00,Leganes,Sevilla
+Matchday 13,2024-11-10,14:00,Betis,Celta
+Matchday 13,2024-11-10,16:15,Mallorca,Ath Madrid
+Matchday 13,2024-11-10,18:30,Getafe,Girona
+Matchday 13,2024-11-10,18:30,Valladolid,Ath Bilbao
+Matchday 13,2024-11-10,21:00,Sociedad,Barcelona
+Matchday 14,2024-11-22,21:00,Getafe,Valladolid
+Matchday 14,2024-11-23,14:00,Valencia,Betis
+Matchday 14,2024-11-23,16:15,Ath Madrid,Alaves
+Matchday 14,2024-11-23,18:30,Las Palmas,Mallorca
+Matchday 14,2024-11-23,18:30,Girona,Espanol
+Matchday 14,2024-11-23,21:00,Celta,Barcelona
+Matchday 14,2024-11-24,14:00,Osasuna,Villarreal
+Matchday 14,2024-11-24,16:15,Sevilla,Vallecano
+Matchday 14,2024-11-24,18:30,Leganes,Real Madrid
+Matchday 14,2024-11-24,21:00,Ath Bilbao,Sociedad
+Matchday 15,2024-11-29,21:00,Mallorca,Valencia
+Matchday 15,2024-11-30,14:00,Barcelona,Las Palmas
+Matchday 15,2024-11-30,16:15,Alaves,Leganes
+Matchday 15,2024-11-30,18:30,Espanol,Celta
+Matchday 15,2024-11-30,21:00,Valladolid,Ath Madrid
+Matchday 15,2024-12-01,14:00,Villarreal,Girona
+Matchday 15,2024-12-01,16:15,Real Madrid,Getafe
+Matchday 15,2024-12-01,18:30,Vallecano,Ath Bilbao
+Matchday 15,2024-12-01,21:00,Sociedad,Betis
+Matchday 15,2024-12-02,21:00,Sevilla,Osasuna
+Matchday 16,2024-12-06,21:00,Celta,Mallorca
+Matchday 16,2024-12-07,14:00,Las Palmas,Valladolid
+Matchday 16,2024-12-07,16:15,Betis,Barcelona
+Matchday 16,2024-12-07,18:30,Valencia,Vallecano
+Matchday 16,2024-12-07,21:00,Girona,Real Madrid
+Matchday 16,2024-12-08,14:00,Leganes,Sociedad
+Matchday 16,2024-12-08,16:15,Ath Bilbao,Villarreal
+Matchday 16,2024-12-08,18:30,Osasuna,Alaves
+Matchday 16,2024-12-08,21:00,Ath Madrid,Sevilla
+Matchday 16,2024-12-09,21:00,Getafe,Espanol
+Matchday 17,2024-12-13,21:00,Valladolid,Valencia
+Matchday 17,2024-12-14,14:00,Espanol,Osasuna
+Matchday 17,2024-12-14,16:15,Mallorca,Girona
+Matchday 17,2024-12-14,18:30,Sevilla,Celta
+Matchday 17,2024-12-14,21:00,Vallecano,Real Madrid
+Matchday 17,2024-12-15,14:00,Ath Madrid,Getafe
+Matchday 17,2024-12-15,16:15,Alaves,Ath Bilbao
+Matchday 17,2024-12-15,18:30,Villarreal,Betis
+Matchday 17,2024-12-15,18:30,Sociedad,Las Palmas
+Matchday 17,2024-12-15,21:00,Barcelona,Leganes
+Matchday 13,2024-12-18,21:30,Espanol,Valencia
+Matchday 12,2024-12-19,,Villarreal,Vallecano
+Matchday 18,2024-12-22,,Betis,Vallecano
+Matchday 18,2024-12-22,,Osasuna,Ath Bilbao
+Matchday 18,2024-12-22,,Leganes,Villarreal
+Matchday 18,2024-12-22,,Celta,Sociedad
+Matchday 18,2024-12-22,,Barcelona,Ath Madrid
+Matchday 18,2024-12-22,,Getafe,Mallorca
+Matchday 18,2024-12-22,,Girona,Valladolid
+Matchday 18,2024-12-22,,Valencia,Alaves
+Matchday 18,2024-12-22,,Real Madrid,Sevilla
+Matchday 18,2024-12-22,,Las Palmas,Espanol
+Matchday 19,2025-01-11,,Espanol,Leganes
+Matchday 19,2025-01-12,,Ath Bilbao,Real Madrid
+Matchday 19,2025-01-12,,Ath Madrid,Osasuna
+Matchday 19,2025-01-12,,Alaves,Girona
+Matchday 19,2025-01-12,,Sevilla,Valencia
+Matchday 19,2025-01-12,,Vallecano,Celta
+Matchday 19,2025-01-12,,Mallorca,Barcelona
+Matchday 19,2025-01-12,,Sociedad,Villarreal
+Matchday 19,2025-01-12,,Valladolid,Betis
+Matchday 19,2025-01-12,,Las Palmas,Getafe
+Matchday 20,2025-01-19,,Betis,Alaves
+Matchday 20,2025-01-19,,Osasuna,Vallecano
+Matchday 20,2025-01-19,,Leganes,Ath Madrid
+Matchday 20,2025-01-19,,Celta,Ath Bilbao
+Matchday 20,2025-01-19,,Getafe,Barcelona
+Matchday 20,2025-01-19,,Girona,Sevilla
+Matchday 20,2025-01-19,,Valencia,Sociedad
+Matchday 20,2025-01-19,,Villarreal,Mallorca
+Matchday 20,2025-01-19,,Real Madrid,Las Palmas
+Matchday 20,2025-01-19,,Espanol,Valladolid
+Matchday 21,2025-01-26,,Ath Bilbao,Leganes
+Matchday 21,2025-01-26,,Ath Madrid,Villarreal
+Matchday 21,2025-01-26,,Alaves,Celta
+Matchday 21,2025-01-26,,Barcelona,Valencia
+Matchday 21,2025-01-26,,Vallecano,Girona
+Matchday 21,2025-01-26,,Mallorca,Betis
+Matchday 21,2025-01-26,,Sociedad,Getafe
+Matchday 21,2025-01-26,,Valladolid,Real Madrid
+Matchday 21,2025-01-26,,Las Palmas,Osasuna
+Matchday 21,2025-01-26,,Sevilla,Espanol
+Matchday 22,2025-02-02,,Ath Madrid,Mallorca
+Matchday 22,2025-02-02,,Betis,Ath Bilbao
+Matchday 22,2025-02-02,,Osasuna,Sociedad
+Matchday 22,2025-02-02,,Leganes,Vallecano
+Matchday 22,2025-02-02,,Barcelona,Alaves
+Matchday 22,2025-02-02,,Getafe,Sevilla
+Matchday 22,2025-02-02,,Girona,Las Palmas
+Matchday 22,2025-02-02,,Valencia,Celta
+Matchday 22,2025-02-02,,Villarreal,Valladolid
+Matchday 22,2025-02-02,,Espanol,Real Madrid
+Matchday 23,2025-02-09,,Ath Bilbao,Girona
+Matchday 23,2025-02-09,,Celta,Betis
+Matchday 23,2025-02-09,,Alaves,Getafe
+Matchday 23,2025-02-09,,Sevilla,Barcelona
+Matchday 23,2025-02-09,,Valencia,Leganes
+Matchday 23,2025-02-09,,Vallecano,Valladolid
+Matchday 23,2025-02-09,,Mallorca,Osasuna
+Matchday 23,2025-02-09,,Real Madrid,Ath Madrid
+Matchday 23,2025-02-09,,Las Palmas,Villarreal
+Matchday 23,2025-02-09,,Sociedad,Espanol
+Matchday 24,2025-02-16,,Ath Madrid,Celta
+Matchday 24,2025-02-16,,Betis,Sociedad
+Matchday 24,2025-02-16,,Osasuna,Real Madrid
+Matchday 24,2025-02-16,,Leganes,Alaves
+Matchday 24,2025-02-16,,Barcelona,Vallecano
+Matchday 24,2025-02-16,,Girona,Getafe
+Matchday 24,2025-02-16,,Villarreal,Valencia
+Matchday 24,2025-02-16,,Mallorca,Las Palmas
+Matchday 24,2025-02-16,,Valladolid,Sevilla
+Matchday 24,2025-02-16,,Espanol,Ath Bilbao
+Matchday 25,2025-02-23,,Ath Bilbao,Valladolid
+Matchday 25,2025-02-23,,Celta,Osasuna
+Matchday 25,2025-02-23,,Getafe,Betis
+Matchday 25,2025-02-23,,Sevilla,Mallorca
+Matchday 25,2025-02-23,,Valencia,Ath Madrid
+Matchday 25,2025-02-23,,Vallecano,Villarreal
+Matchday 25,2025-02-23,,Real Madrid,Girona
+Matchday 25,2025-02-23,,Sociedad,Leganes
+Matchday 25,2025-02-23,,Las Palmas,Barcelona
+Matchday 25,2025-02-23,,Alaves,Espanol
+Matchday 26,2025-03-02,,Ath Madrid,Ath Bilbao
+Matchday 26,2025-03-02,,Betis,Real Madrid
+Matchday 26,2025-03-02,,Osasuna,Valencia
+Matchday 26,2025-03-02,,Leganes,Getafe
+Matchday 26,2025-03-02,,Barcelona,Sociedad
+Matchday 26,2025-03-02,,Girona,Celta
+Matchday 26,2025-03-02,,Vallecano,Sevilla
+Matchday 26,2025-03-02,,Mallorca,Alaves
+Matchday 26,2025-03-02,,Valladolid,Las Palmas
+Matchday 26,2025-03-02,,Villarreal,Espanol
+Matchday 27,2025-03-09,,Ath Bilbao,Mallorca
+Matchday 27,2025-03-09,,Betis,Las Palmas
+Matchday 27,2025-03-09,,Celta,Leganes
+Matchday 27,2025-03-09,,Alaves,Villarreal
+Matchday 27,2025-03-09,,Barcelona,Osasuna
+Matchday 27,2025-03-09,,Getafe,Ath Madrid
+Matchday 27,2025-03-09,,Valencia,Valladolid
+Matchday 27,2025-03-09,,Real Madrid,Vallecano
+Matchday 27,2025-03-09,,Sociedad,Sevilla
+Matchday 27,2025-03-09,,Espanol,Girona
+Matchday 28,2025-03-16,,Ath Madrid,Barcelona
+Matchday 28,2025-03-16,,Osasuna,Getafe
+Matchday 28,2025-03-16,,Leganes,Betis
+Matchday 28,2025-03-16,,Girona,Valencia
+Matchday 28,2025-03-16,,Sevilla,Ath Bilbao
+Matchday 28,2025-03-16,,Villarreal,Real Madrid
+Matchday 28,2025-03-16,,Vallecano,Sociedad
+Matchday 28,2025-03-16,,Valladolid,Celta
+Matchday 28,2025-03-16,,Las Palmas,Alaves
+Matchday 28,2025-03-16,,Mallorca,Espanol
+Matchday 29,2025-03-30,,Ath Bilbao,Osasuna
+Matchday 29,2025-03-30,,Betis,Sevilla
+Matchday 29,2025-03-30,,Celta,Las Palmas
+Matchday 29,2025-03-30,,Alaves,Vallecano
+Matchday 29,2025-03-30,,Barcelona,Girona
+Matchday 29,2025-03-30,,Getafe,Villarreal
+Matchday 29,2025-03-30,,Valencia,Mallorca
+Matchday 29,2025-03-30,,Real Madrid,Leganes
+Matchday 29,2025-03-30,,Sociedad,Valladolid
+Matchday 29,2025-03-30,,Espanol,Ath Madrid
+Matchday 30,2025-04-06,,Leganes,Osasuna
+Matchday 30,2025-04-06,,Barcelona,Betis
+Matchday 30,2025-04-06,,Girona,Alaves
+Matchday 30,2025-04-06,,Sevilla,Ath Madrid
+Matchday 30,2025-04-06,,Villarreal,Ath Bilbao
+Matchday 30,2025-04-06,,Mallorca,Celta
+Matchday 30,2025-04-06,,Real Madrid,Valencia
+Matchday 30,2025-04-06,,Valladolid,Getafe
+Matchday 30,2025-04-06,,Las Palmas,Sociedad
+Matchday 30,2025-04-06,,Vallecano,Espanol
+Matchday 31,2025-04-13,,Ath Bilbao,Vallecano
+Matchday 31,2025-04-13,,Ath Madrid,Valladolid
+Matchday 31,2025-04-13,,Betis,Villarreal
+Matchday 31,2025-04-13,,Osasuna,Girona
+Matchday 31,2025-04-13,,Leganes,Barcelona
+Matchday 31,2025-04-13,,Alaves,Real Madrid
+Matchday 31,2025-04-13,,Getafe,Las Palmas
+Matchday 31,2025-04-13,,Valencia,Sevilla
+Matchday 31,2025-04-13,,Sociedad,Mallorca
+Matchday 31,2025-04-13,,Celta,Espanol
+Matchday 32,2025-04-20,,Barcelona,Celta
+Matchday 32,2025-04-20,,Girona,Betis
+Matchday 32,2025-04-20,,Sevilla,Alaves
+Matchday 32,2025-04-20,,Villarreal,Sociedad
+Matchday 32,2025-04-20,,Vallecano,Valencia
+Matchday 32,2025-04-20,,Mallorca,Leganes
+Matchday 32,2025-04-20,,Real Madrid,Ath Bilbao
+Matchday 32,2025-04-20,,Valladolid,Osasuna
+Matchday 32,2025-04-20,,Las Palmas,Ath Madrid
+Matchday 32,2025-04-20,,Espanol,Getafe
+Matchday 33,2025-04-23,,Ath Bilbao,Las Palmas
+Matchday 33,2025-04-23,,Ath Madrid,Vallecano
+Matchday 33,2025-04-23,,Betis,Valladolid
+Matchday 33,2025-04-23,,Osasuna,Sevilla
+Matchday 33,2025-04-23,,Leganes,Girona
+Matchday 33,2025-04-23,,Celta,Villarreal
+Matchday 33,2025-04-23,,Alaves,Sociedad
+Matchday 33,2025-04-23,,Barcelona,Mallorca
+Matchday 33,2025-04-23,,Getafe,Real Madrid
+Matchday 33,2025-04-23,,Valencia,Espanol
+Matchday 34,2025-05-04,,Girona,Mallorca
+Matchday 34,2025-05-04,,Sevilla,Leganes
+Matchday 34,2025-05-04,,Villarreal,Osasuna
+Matchday 34,2025-05-04,,Vallecano,Getafe
+Matchday 34,2025-05-04,,Real Madrid,Celta
+Matchday 34,2025-05-04,,Sociedad,Ath Bilbao
+Matchday 34,2025-05-04,,Valladolid,Barcelona
+Matchday 34,2025-05-04,,Las Palmas,Valencia
+Matchday 34,2025-05-04,,Espanol,Betis
+Matchday 34,2025-05-04,,Alaves,Ath Madrid
+Matchday 35,2025-05-11,,Ath Bilbao,Alaves
+Matchday 35,2025-05-11,,Ath Madrid,Sociedad
+Matchday 35,2025-05-11,,Betis,Osasuna
+Matchday 35,2025-05-11,,Celta,Sevilla
+Matchday 35,2025-05-11,,Barcelona,Real Madrid
+Matchday 35,2025-05-11,,Girona,Villarreal
+Matchday 35,2025-05-11,,Valencia,Getafe
+Matchday 35,2025-05-11,,Mallorca,Valladolid
+Matchday 35,2025-05-11,,Las Palmas,Vallecano
+Matchday 35,2025-05-11,,Leganes,Espanol
+Matchday 36,2025-05-14,,Osasuna,Ath Madrid
+Matchday 36,2025-05-14,,Alaves,Valencia
+Matchday 36,2025-05-14,,Getafe,Ath Bilbao
+Matchday 36,2025-05-14,,Sevilla,Las Palmas
+Matchday 36,2025-05-14,,Villarreal,Leganes
+Matchday 36,2025-05-14,,Vallecano,Betis
+Matchday 36,2025-05-14,,Real Madrid,Mallorca
+Matchday 36,2025-05-14,,Sociedad,Celta
+Matchday 36,2025-05-14,,Valladolid,Girona
+Matchday 36,2025-05-14,,Espanol,Barcelona
+Matchday 37,2025-05-18,,Ath Madrid,Betis
+Matchday 37,2025-05-18,,Celta,Vallecano
+Matchday 37,2025-05-18,,Barcelona,Villarreal
+Matchday 37,2025-05-18,,Sevilla,Real Madrid
+Matchday 37,2025-05-18,,Valencia,Ath Bilbao
+Matchday 37,2025-05-18,,Mallorca,Getafe
+Matchday 37,2025-05-18,,Sociedad,Girona
+Matchday 37,2025-05-18,,Valladolid,Alaves
+Matchday 37,2025-05-18,,Las Palmas,Leganes
+Matchday 37,2025-05-18,,Osasuna,Espanol
+Matchday 38,2025-05-25,,Ath Bilbao,Barcelona
+Matchday 38,2025-05-25,,Betis,Valencia
+Matchday 38,2025-05-25,,Leganes,Valladolid
+Matchday 38,2025-05-25,,Alaves,Osasuna
+Matchday 38,2025-05-25,,Getafe,Celta
+Matchday 38,2025-05-25,,Girona,Ath Madrid
+Matchday 38,2025-05-25,,Villarreal,Sevilla
+Matchday 38,2025-05-25,,Vallecano,Mallorca
+Matchday 38,2025-05-25,,Real Madrid,Sociedad
+Matchday 38,2025-05-25,,Espanol,Las Palmas
