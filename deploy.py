@@ -9,28 +9,28 @@ from RandomForest2 import RandomForest,DecisionTree,Node
 
 
 team_images = {
-    'Ath Bilbao': r'C:\Users\Theopan gerard\OneDrive\Documents\Kecerdasan Ai\Gambar\Ath Bilbao.png',
-    'Betis': r'C:\Users\Theopan gerard\OneDrive\Documents\Kecerdasan Ai\Gambar\Betis.png',
-    'Celta': r'C:\Users\Theopan gerard\OneDrive\Documents\Kecerdasan Ai\Gambar\Celta.png',
-    'Las Palmas': r'C:\Users\Theopan gerard\OneDrive\Documents\Kecerdasan Ai\Gambar\Las Palmas.png',
-    'Osasuna': r'C:\Users\Theopan gerard\OneDrive\Documents\Kecerdasan Ai\Gambar\Osasuna.png',
-    'Valencia': r'C:\Users\Theopan gerard\OneDrive\Documents\Kecerdasan Ai\Gambar\Valencia.png',
-    'Sociedad': r'C:\Users\Theopan gerard\OneDrive\Documents\Kecerdasan Ai\Gambar\Sociedad.png',
-    'Mallorca': r'C:\Users\Theopan gerard\OneDrive\Documents\Kecerdasan Ai\Gambar\Mallorca.png',
-    'Valladolid': r'C:\Users\Theopan gerard\OneDrive\Documents\Kecerdasan Ai\Gambar\Valladolid.png',
-    'Villarreal': r'C:\Users\Theopan gerard\OneDrive\Documents\Kecerdasan Ai\Gambar\Villarreal.png',
-    'Sevilla': r'C:\Users\Theopan gerard\OneDrive\Documents\Kecerdasan Ai\Gambar\Sevilla.png',
-    'Barcelona': r'C:\Users\Theopan gerard\OneDrive\Documents\Kecerdasan Ai\Gambar\Barcelona.png',
-    'Espanol': r'C:\Users\Theopan gerard\OneDrive\Documents\Kecerdasan Ai\Gambar\Espanol.png',
-    'Getafe': r'C:\Users\Theopan gerard\OneDrive\Documents\Kecerdasan Ai\Gambar\Getafe.png',
-    'Real Madrid': r'C:\Users\Theopan gerard\OneDrive\Documents\Kecerdasan Ai\Gambar\Real Madrid.png',
-    'Leganes': r'C:\Users\Theopan gerard\OneDrive\Documents\Kecerdasan Ai\Gambar\Leganes.png',
-    'Alaves': r'C:\Users\Theopan gerard\OneDrive\Documents\Kecerdasan Ai\Gambar\Alaves.png',
-    'Ath Madrid': r'C:\Users\Theopan gerard\OneDrive\Documents\Kecerdasan Ai\Gambar\Ath Madrid.png',
-    'Vallecano': r'C:\Users\Theopan gerard\OneDrive\Documents\Kecerdasan Ai\Gambar\Vallecano.png',
-    'Girona': r'C:\Users\Theopan gerard\OneDrive\Documents\Kecerdasan Ai\Gambar\Girona.png',
-    'Cadiz': r'C:\Users\Theopan gerard\OneDrive\Documents\Kecerdasan Ai\Gambar\Cadiz.png',
-    'Granada': r'C:\Users\Theopan gerard\OneDrive\Documents\Kecerdasan Ai\Gambar\Granada.png'
+    'Ath Bilbao': r'Gambar\Ath Bilbao.png',
+    'Betis': r'Gambar\Betis.png',
+    'Celta': r'Gambar\Celta.png',
+    'Las Palmas': r'Gambar\Las Palmas.png',
+    'Osasuna': r'Gambar\Osasuna.png',
+    'Valencia': r'Gambar\Valencia.png',
+    'Sociedad': r'Gambar\Sociedad.png',
+    'Mallorca': r'Gambar\Mallorca.png',
+    'Valladolid': r'Gambar\Valladolid.png',
+    'Villarreal': r'Gambar\Villarreal.png',
+    'Sevilla': r'Gambar\Sevilla.png',
+    'Barcelona': r'Gambar\Barcelona.png',
+    'Espanol': r'Gambar\Espanol.png',
+    'Getafe': r'Gambar\Getafe.png',
+    'Real Madrid': r'Gambar\Real Madrid.png',
+    'Leganes': r'Gambar\Leganes.png',
+    'Alaves': r'Gambar\Alaves.png',
+    'Ath Madrid': r'Gambar\Ath Madrid.png',
+    'Vallecano': r'Gambar\Vallecano.png',
+    'Girona': r'Gambar\Girona.png',
+    'Cadiz': r'Gambar\Cadiz.png',
+    'Granada': r'Gambar\Granada.png'
 }
 def get_image_as_base64(image_path):
     with open(image_path, "rb") as img_file:
@@ -108,7 +108,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Header Section
-la_liga_logo_base64 = get_image_as_base64(r'C:\Users\Theopan gerard\OneDrive\Documents\Kecerdasan Ai\Gambar\87.png')
+la_liga_logo_base64 = get_image_as_base64(r'Gambar\87.png')
 st.markdown(f"""
 <div class="header-container" style="text-align: center; width: 100%; position: relative; box-sizing: border-box; display: flex; align-items: center; justify-content: space-between; height: 90px; padding: 0 10px;">  <!-- Mengatur tinggi menjadi 60px -->
     <div style="display: flex; align-items: center; height: 100%;">  <!-- Mengatur tinggi 100% untuk child -->
@@ -126,7 +126,7 @@ st.markdown(f"""
 # Load and Process Data
 @st.cache_data
 def load_data():
-    data = pd.read_csv(r'C:\Users\Theopan gerard\OneDrive\Documents\Kecerdasan Ai\data matches\SP1 (14).csv')
+    data = pd.read_csv(r'SP1 (14).csv')
     data['Date'] = pd.to_datetime(data['Date'], format='%d/%m/%Y')
     data_cleaned = data.drop(['B365H', 'B365D', 'B365A', 'BWH', 'BWD', 'BWA', 'BFH', 'BFD', 'BFA', 'PSH', 'PSD', 'PSA',
         'WHH', 'WHD', 'WHA', '1XBH', '1XBD', '1XBA', 'MaxH', 'MaxD', 'MaxA', 'AvgH', 'AvgD', 'AvgA',
@@ -214,7 +214,7 @@ standings_html = standings_html.replace('<th>Logo</th>', '<th></th>')
 def load_yang_akan_datang():
     
     
-    jadwal_path = r'C:\Users\Theopan gerard\OneDrive\Documents\Kecerdasan Ai\la_liga_matches_updated.csv'
+    jadwal_path = r'la_liga_matches_updated.csv'
     jadwal_pertandingan_df = pd.read_csv(jadwal_path)
 
     # Convert the 'date' column to datetime and extract the date part
@@ -226,8 +226,8 @@ def load_yang_akan_datang():
 
 
 def load_sudah_terjadi():
-    data = pd.read_csv(r'C:\Users\Theopan gerard\OneDrive\Documents\Kecerdasan Ai\data matches\SP1 (14).csv')
-    # data = pd.read_csv(r'C:\Users\Theopan gerard\OneDrive\Documents\Kecerdasan Ai\Laliga_2011-2025.csv')
+    data = pd.read_csv(r'SP1 (14).csv')
+    # data = pd.read_csv(r'Laliga_2011-2025.csv')
     # Memilih kolom yang diperlukan
     selected_columns = data[['Date', 'Time', 'HomeTeam', 'AwayTeam', 'FTHG', 'FTAG', 'FTR']]
     
@@ -235,7 +235,7 @@ def load_sudah_terjadi():
 
 
 def fitur():
-    data = pd.read_csv(r'C:\Users\Theopan gerard\OneDrive\Documents\Kecerdasan Ai\data matches\SP1 (14).csv')
+    data = pd.read_csv(r'SP1 (14).csv')
 
     data['Date'] = pd.to_datetime(data['Date'], format='%d/%m/%Y')
     data = data.sort_values(by='Date')
@@ -339,7 +339,7 @@ def fitur():
     ]
 
     # Load jadwal pertandingan
-    jadwal_path = r'C:\Users\Theopan gerard\OneDrive\Documents\Kecerdasan Ai\la_liga_matches_updated.csv'
+    jadwal_path = r'la_liga_matches_updated.csv'
     jadwal_pertandingan_df = pd.read_csv(jadwal_path)
 
     # Convert the 'date' column to datetime and extract the date part
@@ -359,9 +359,9 @@ def fitur():
     return jadwal_besok
 
 def model():
-    standard=joblib.load(r'C:\Users\Theopan gerard\OneDrive\Documents\Kecerdasan Ai\Integrasi\standard_scal_rendra.joblib')
+    standard=joblib.load(r'standard_scal_rendra.joblib')
     isi_fitur=fitur()
-    model=joblib.load(r'C:\Users\Theopan gerard\OneDrive\Documents\Kecerdasan Ai\Integrasi\model_rendra.joblib')
+    model=joblib.load(r'model_rendra.joblib')
     feature_columns = [
         'home_wins_home', 'home_draws_home', 'home_losses_home', 
         'home_FTHG_home', 'home_FTAG_home', 'home_HTHG_home', 
@@ -408,12 +408,12 @@ def model():
     
     return results
 def model2():
-    model2=joblib.load(r'C:\Users\Theopan gerard\OneDrive\Documents\Kecerdasan Ai\Integrasi\RandomForest_Model_2.joblib')
-    away=joblib.load(r'C:\Users\Theopan gerard\OneDrive\Documents\Kecerdasan Ai\Integrasi\label_encoder_away.joblib')
-    home=joblib.load(r'C:\Users\Theopan gerard\OneDrive\Documents\Kecerdasan Ai\Integrasi\label_encoder_home.joblib')
-    winner=joblib.load(r'C:\Users\Theopan gerard\OneDrive\Documents\Kecerdasan Ai\Integrasi\label_encoder_winners.joblib')
-    dataset=pd.read_csv(r'C:\Users\Theopan gerard\OneDrive\Documents\Kecerdasan Ai\Integrasi\Stat_laliga.csv')
-    scaler=joblib.load(r'C:\Users\Theopan gerard\OneDrive\Documents\Kecerdasan Ai\Integrasi\standard_scaler.joblib')
+    model2=joblib.load(r'RandomForest_Model_2.joblib')
+    away=joblib.load(r'label_encoder_away.joblib')
+    home=joblib.load(r'label_encoder_home.joblib')
+    winner=joblib.load(r'label_encoder_winners.joblib')
+    dataset=pd.read_csv(r'Stat_laliga.csv')
+    scaler=joblib.load(r'standard_scaler.joblib')
     if 'Home Team' in dataset.columns and 'Away Team' in dataset.columns:
         dataset['HomeTeam'] = home.transform(dataset['Home Team'])
         dataset['AwayTeam'] = away.transform(dataset['Away Team'])
