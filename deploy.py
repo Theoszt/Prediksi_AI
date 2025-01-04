@@ -353,7 +353,7 @@ def fitur():
     away_data = full_performance[away_feature + ['Team']].rename(columns=lambda x: x if x == 'Team' else f"{x}_away")
 
     # Merge home and away data into jadwal_besok
-    jadwal_besok = jadwal_besok.merge(home_data, left_on='Home Team', right_on='Team', how='left') /
+    jadwal_besok = jadwal_besok.merge(home_data, left_on='Home Team', right_on='Team', how='left') \
                                  .merge(away_data, left_on='Away Team', right_on='Team', how='left', suffixes=('_home', '_away'))
 
     return jadwal_besok
