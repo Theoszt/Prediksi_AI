@@ -5,7 +5,7 @@ import base64
 import joblib
 import numpy as np
 from RandomForest import random_forest_baru,decisiontreebaru
-from RandomForest2 import RandomForest,DecisionTree,Node
+from Random_Forest2 import RandomForest,DecisionTree,Node
 
 
 team_images = {
