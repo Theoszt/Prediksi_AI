@@ -9,28 +9,28 @@ from RandomForest2 import RandomForest,DecisionTree,Node
 
 
 team_images = {
-    'Ath Bilbao': r'Gambar\Ath Bilbao.png',
-    'Betis': r'Gambar\Betis.png',
-    'Celta': r'Gambar\Celta.png',
-    'Las Palmas': r'Gambar\Las Palmas.png',
-    'Osasuna': r'Gambar\Osasuna.png',
-    'Valencia': r'Gambar\Valencia.png',
-    'Sociedad': r'Gambar\Sociedad.png',
-    'Mallorca': r'Gambar\Mallorca.png',
-    'Valladolid': r'Gambar\Valladolid.png',
-    'Villarreal': r'Gambar\Villarreal.png',
-    'Sevilla': r'Gambar\Sevilla.png',
-    'Barcelona': r'Gambar\Barcelona.png',
-    'Espanol': r'Gambar\Espanol.png',
-    'Getafe': r'Gambar\Getafe.png',
-    'Real Madrid': r'Gambar\Real Madrid.png',
-    'Leganes': r'Gambar\Leganes.png',
-    'Alaves': r'Gambar\Alaves.png',
-    'Ath Madrid': r'Gambar\Ath Madrid.png',
-    'Vallecano': r'Gambar\Vallecano.png',
-    'Girona': r'Gambar\Girona.png',
-    'Cadiz': r'Gambar\Cadiz.png',
-    'Granada': r'Gambar\Granada.png'
+    'Ath Bilbao': r'Gambar/Ath Bilbao.png',
+    'Betis': r'Gambar/Betis.png',
+    'Celta': r'Gambar/Celta.png',
+    'Las Palmas': r'Gambar/Las Palmas.png',
+    'Osasuna': r'Gambar/Osasuna.png',
+    'Valencia': r'Gambar/Valencia.png',
+    'Sociedad': r'Gambar/Sociedad.png',
+    'Mallorca': r'Gambar/Mallorca.png',
+    'Valladolid': r'Gambar/Valladolid.png',
+    'Villarreal': r'Gambar/Villarreal.png',
+    'Sevilla': r'Gambar/Sevilla.png',
+    'Barcelona': r'Gambar/Barcelona.png',
+    'Espanol': r'Gambar/Espanol.png',
+    'Getafe': r'Gambar/Getafe.png',
+    'Real Madrid': r'Gambar/Real Madrid.png',
+    'Leganes': r'Gambar/Leganes.png',
+    'Alaves': r'Gambar/Alaves.png',
+    'Ath Madrid': r'Gambar/Ath Madrid.png',
+    'Vallecano': r'Gambar/Vallecano.png',
+    'Girona': r'Gambar/Girona.png',
+    'Cadiz': r'Gambar/Cadiz.png',
+    'Granada': r'Gambar/Granada.png'
 }
 def get_image_as_base64(image_path):
     with open(image_path, "rb") as img_file:
@@ -353,7 +353,7 @@ def fitur():
     away_data = full_performance[away_feature + ['Team']].rename(columns=lambda x: x if x == 'Team' else f"{x}_away")
 
     # Merge home and away data into jadwal_besok
-    jadwal_besok = jadwal_besok.merge(home_data, left_on='Home Team', right_on='Team', how='left') \
+    jadwal_besok = jadwal_besok.merge(home_data, left_on='Home Team', right_on='Team', how='left') /
                                  .merge(away_data, left_on='Away Team', right_on='Team', how='left', suffixes=('_home', '_away'))
 
     return jadwal_besok
