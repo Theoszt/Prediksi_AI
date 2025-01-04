@@ -108,7 +108,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Header Section
-la_liga_logo_base64 = get_image_as_base64(r'Gambar\87.png')
+la_liga_logo_base64 = get_image_as_base64(r'Gambar/87.png')
 st.markdown(f"""
 <div class="header-container" style="text-align: center; width: 100%; position: relative; box-sizing: border-box; display: flex; align-items: center; justify-content: space-between; height: 90px; padding: 0 10px;">  <!-- Mengatur tinggi menjadi 60px -->
     <div style="display: flex; align-items: center; height: 100%;">  <!-- Mengatur tinggi 100% untuk child -->
