@@ -54,8 +54,6 @@ class DecisionTree:
 
         return Node(feature=best_feature, threshold=best_thresh, left=left, right=right)
 
-
-
     def _best_split(self, X, y, feat_idxs):
         best_gain = -1
         split_idx, split_threshold = None, None
@@ -65,7 +63,7 @@ class DecisionTree:
             thresholds = np.unique(X_column)
 
             for thr in thresholds:
-                gain = self._information_gain(y, X_column, thr)
+                gain = self._gini_gain(y, X_column, thr)
                 if gain > best_gain:
                     best_gain = gain
                     split_idx = feat_idx
@@ -73,8 +71,11 @@ class DecisionTree:
 
         return split_idx, split_threshold
 
-    def _information_gain(self, y, X_column, threshold):
-        parent_entropy = self._entropy(y)
+    def _gini_gain(self, y, X_column, threshold):
+        """
+        Calculate Gini Gain instead of Information Gain.
+        """
+        parent_gini = self._gini_index(y)
         left_idxs, right_idxs = self._split(X_column, threshold)
 
         if len(left_idxs) == 0 or len(right_idxs) == 0:
@@ -82,20 +83,24 @@ class DecisionTree:
 
         n = len(y)
         n_l, n_r = len(left_idxs), len(right_idxs)
-        e_l, e_r = self._entropy(y[left_idxs]), self._entropy(y[right_idxs])
-        child_entropy = (n_l / n) * e_l + (n_r / n) * e_r
+        gini_left = self._gini_index(y[left_idxs])
+        gini_right = self._gini_index(y[right_idxs])
+        child_gini = (n_l / n) * gini_left + (n_r / n) * gini_right
 
-        return parent_entropy - child_entropy
+        return parent_gini - child_gini
 
     def _split(self, X_column, split_thresh):
         left_idxs = np.argwhere(X_column <= split_thresh).flatten()
         right_idxs = np.argwhere(X_column > split_thresh).flatten()
         return left_idxs, right_idxs
 
-    def _entropy(self, y):
+    def _gini_index(self, y):
+        """
+        Calculate Gini Index for a set of labels.
+        """
         hist = np.bincount(y, minlength=len(np.unique(y)))
         ps = hist / len(y)
-        return -np.sum([p * np.log(p) for p in ps if p > 0])
+        return 1 - np.sum(ps ** 2)
 
     def _compute_leaf_value(self, y, num_classes):
         hist = np.bincount(y, minlength=num_classes)
@@ -123,6 +128,7 @@ class DecisionTree:
         if x[node.feature] <= node.threshold:
             return self._traverse_tree_proba(x, node.left)
         return self._traverse_tree_proba(x, node.right)
+
 
 
 class RandomForest:
