@@ -502,7 +502,7 @@ def klasmen():
 def page2():
     model_choice = st.selectbox("Select Prediction", ["prediksi data 1 musim", "prediksi data 10 musim"])
 
-    if model_choice == "prediksi A":
+    if model_choice == "prediksi data 1 musim":
         predictions = model()
     else:
         predictions = model2()
