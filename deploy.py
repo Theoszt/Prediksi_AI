@@ -500,7 +500,7 @@ def klasmen():
     """, unsafe_allow_html=True)
 # Add additional sections for "tomorrow" and "Tomorrow" tabs as needed
 def page2():
-    model_choice = st.selectbox("Select Prediction", ["prediksi A", "prediksi B"])
+    model_choice = st.selectbox("Select Prediction", ["prediksi data 1 musim", "prediksi data 10 musim"])
 
     if model_choice == "prediksi A":
         predictions = model()
